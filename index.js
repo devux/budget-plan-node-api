@@ -9,10 +9,12 @@ dotenv.config();
 // Set up the Express app
 const app = express();
 
-// Enable CORS for all routes
-app.use(cors());
+
 
 const port = process.env.PORT || 5000;
+
+// Enable CORS for all routes
+app.use(cors());
 
 // Middleware to parse JSON requests
 app.use(express.json());
