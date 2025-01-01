@@ -8,10 +8,17 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "echo 'No build necessary for this Node.js app'"
   },
-  "keywords": ["node","express","mongodb","api","backend"],
+  "keywords": [
+    "node",
+    "express",
+    "mongodb",
+    "api",
+    "backend"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "mongoose": "^8.9.2"
